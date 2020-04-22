@@ -1,0 +1,8 @@
+@import "../../assets/styles/variables.scss";
+@import "../../assets/styles/mixins.scss";
+
+.divider {
+  height: 2px;
+  background: $borderColor;
+  margin: toRem(14px) 0;
+}

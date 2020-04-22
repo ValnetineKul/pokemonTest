@@ -1,0 +1,14 @@
+.pokemonDetailsContainer {
+  display: grid;
+}
+.pokemonDetailsContainer > img,
+.pokemonDetailsContainer > h3,
+.pokemonDetailsContainer > div,
+.pokemonDetailsContainer > ul{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.pokemonDetailsContainer > button {
+  border-radius: 10px;
+}

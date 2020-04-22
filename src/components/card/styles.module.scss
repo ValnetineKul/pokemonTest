@@ -1,0 +1,36 @@
+@import "../../assets/styles/variables.scss";
+@import "../../assets/styles/mixins.scss";
+
+.card {
+  border-radius: toRem(12px);
+  border: 2px solid $borderColor;
+}
+
+.header {
+  margin-bottom: toRem(16px);
+}
+
+.large {
+  padding: 2rem;
+}
+
+.medium {
+  padding: 1.5rem;
+}
+
+.small {
+  padding: 1rem;
+}
+
+.none {
+  padding: 0;
+}
+
+.transparent {
+  background: transparent;
+  border-color: transparent;
+}
+
+.default {
+  background: $cardColor;
+}

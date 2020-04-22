@@ -1,0 +1,43 @@
+@import "../../assets/styles/variables.scss";
+@import "../../assets/styles/mixins.scss";
+
+
+.containerMain {
+  display: grid;
+  grid-template-areas: 'logo' 'search' 'containerCar';
+}
+
+.containerMain > img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.containerCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  grid-gap: 10px;
+}
+
+.card {
+  &:hover {
+    background: $cardHoverColor;
+    border-color: $borderHoverColor;
+  }
+  &:active {
+    background: $cardActiveColor;
+    border-color: $borderActiveColor;
+  }
+}
+
+
+.card > img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.title {
+  text-align: center;
+}
